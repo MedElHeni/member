@@ -1,0 +1,148 @@
+
+.format-navbar{
+    background-color: rgb(94, 0, 0);
+    border-bottom: 1px #d5ffcf solid;
+
+}
+ .navbar  .navbar-nav > li > a {
+    color:#7c4b66;
+    background-color: rgb(165, 163, 65);
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border-radius: 30px 
+}
+.navbar .navbar-nav>li>a:hover  { 
+    color: red;
+    background-color: #c2d800;
+}
+
+.navbar .title{
+    color: #6cb882;
+    font-weight: bold;
+}
+.navbar .title:hover{
+    color: black;
+    font-weight: bold;
+}
+.signup-connection{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.link-singup-connection:link{
+    text-decoration: none;
+
+
+}
+.link-singup-connection{
+    text-decoration: none;
+    background-color: #a29fd6;
+    color: #7c4b66;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border:2px #e9eea3 solid;
+    border-radius: 5px;
+    font-weight: bold;
+    border-radius: 40px;
+}
+.link-singup-connection:hover{
+    background-color: rgb(191, 202, 29);
+    color:#7c4b66;
+}
+.button-navbar-responsive{
+    background-color: #553055;
+    border:0px;
+}
+.navbar .navbar-header > .button-navbar-responsive > span{
+    background-color:  rgb(79, 168, 76);
+}
+.button-navbar-responsive:hover{
+    background-color: rgb(79, 168, 76);
+    
+}
+.wallpeaper-accueil{
+    margin-top: 150px;
+    background-image: url("imagery/voiture1.jpg");
+    height: 70vh;
+
+}
+
+
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.row{
+    margin-right: 0px;
+    margin-left: 0px;
+            
+}
+
+.title-big-home{
+    color: red;
+    border: 2px red solid;
+    border-radius: 100px;
+    padding: 50px 30px;
+    text-align: center;
+    margin-top: 120px;
+}
+.footer{
+    background-color: white;
+    position:relative;
+    bottom:0;
+    width:100%;
+    height:40px;
+    font-weight: bold;
+    font-size: 0.9em;
+    color: black;
+    padding-top: 10px;
+
+
+}
+.icons-link-social{
+    font-size: 18px !important;
+    color: black;
+    margin-right: 20px;
+}
+@media only screen and (max-width: 768px) {
+            .footer{
+                font-size: 0.8em;
+                height: 60px;
+                padding-top: 0px;
+            }
+            .title-big-home{
+
+                margin-top: 50px;
+            }
+            .icons-link-social{
+                font-size: 15px !important;
+                color: black;
+                margin-right: 25px;
+            }
+
+}
+@media only screen and (max-width: 992px) {
+            .footer{
+                font-size: 0.8em;
+                height: 60px;
+                padding-top: 0px;
+
+            }
+            .title-big-home{
+
+                margin-top: 50px;
+                border: 0px;
+            }
+
+            .icons-link-social{
+                font-size: 15px !important;
+                color: black;
+                margin-right: 25px;
+            }
+
+}
+
